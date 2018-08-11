@@ -4,4 +4,4 @@ FROM circleci/node:8
 RUN sudo apt-get update && sudo apt-get install -y \
   python-dev \
   && curl https://bootstrap.pypa.io/get-pip.py | sudo python \
-  && sudo pip install awscli --upgrade
+  && sudo pip install awscli
